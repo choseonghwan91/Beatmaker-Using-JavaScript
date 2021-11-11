@@ -45,10 +45,10 @@ svg {
 .snare-track,
 .kick-track {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-top: 5rem;
   width: 70%;
+  justify-content: space-between;
+  margin-top: 5rem;
 }
 .kick,
 .snare,
@@ -90,4 +90,13 @@ select {
   padding: 1rem;
   font-size: 1rem;
   margin-left: 1rem;
+}
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
